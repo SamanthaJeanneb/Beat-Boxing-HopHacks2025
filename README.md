@@ -75,4 +75,3 @@ The hosted site should connect to the tracker running locally so punching input 
 
 - This README assumes the `gameclient/` dev server uses Vite and the default `npm run dev` script defined in `gameclient/package.json`.
 - The body tracker script is assumed to be at `OpenCVBody/bodyTracker.py` and to be compatible with OpenCV Python bindings.
-- If you want me to, I can add a `requirements.txt` file for the Python script, or add a small systemd/user unit to run the tracker in the background on login.
